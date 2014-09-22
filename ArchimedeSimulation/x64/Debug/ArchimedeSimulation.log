@@ -1,0 +1,9 @@
+﻿Build started 22-Sep-14 5:27:37 PM.
+     1>Project "C:\Users\Guillaume\Documents\Archimede\archimedesimulation\ArchimedeSimulation\ArchimedeSimulation.vcxproj" on node 2 (Clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Debug\Archimed.5D34FD48.tlog\ArchimedeSimulation.lastbuildstate".
+     1>Done Building Project "C:\Users\Guillaume\Documents\Archimede\archimedesimulation\ArchimedeSimulation\ArchimedeSimulation.vcxproj" (Clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.01
