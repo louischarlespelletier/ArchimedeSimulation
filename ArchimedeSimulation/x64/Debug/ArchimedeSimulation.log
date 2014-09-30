@@ -1,9 +1,34 @@
-﻿Build started 22-Sep-14 5:27:37 PM.
-     1>Project "C:\Users\Guillaume\Documents\Archimede\archimedesimulation\ArchimedeSimulation\ArchimedeSimulation.vcxproj" on node 2 (Clean target(s)).
-     1>_PrepareForClean:
-         Deleting file "x64\Debug\Archimed.5D34FD48.tlog\ArchimedeSimulation.lastbuildstate".
-     1>Done Building Project "C:\Users\Guillaume\Documents\Archimede\archimedesimulation\ArchimedeSimulation\ArchimedeSimulation.vcxproj" (Clean target(s)).
+﻿La génération a démarré 2014-09-29 22:17:30.
+     1>Projet "D:\Archimède\ArchimedeSimulation\ArchimedeSimulation\ArchimedeSimulation.vcxproj" sur le nœud 2 (Rebuild cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Archimède\ArchimedeSimulation\ArchimedeSimulation\\src" /I"D:\Archimède\ArchimedeSimulation\ArchimedeSimulation\\include" /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt src\ArbreDeRendu\ArbreDeRendu.cpp src\ArbreDeRendu\Environnement.cpp src\ArbreDeRendu\NoeudComposite.cpp src\ArbreDeRendu\NoeudSimple.cpp src\Scenes\Scene.cpp src\Scenes\SceneSimulateur.cpp src\Simulation.cpp src\ArbreDeRendu\SousMarin.cpp src\main.cpp src\Visiteurs\VisiteurAbstrait.cpp src\Visiteurs\VisiteurCollision.cpp
+         VisiteurCollision.cpp
+         VisiteurAbstrait.cpp
+         main.cpp
+         SousMarin.cpp
+         Simulation.cpp
+         SceneSimulateur.cpp
+         Scene.cpp
+         NoeudSimple.cpp
+         NoeudComposite.cpp
+         Environnement.cpp
+         ArbreDeRendu.cpp
+         Génération de code en cours...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Archimède\ArchimedeSimulation\x64\Debug\ArchimedeSimulation.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Archimède\ArchimedeSimulation\ArchimedeSimulation\\lib" opengl32.lib glew32.lib glfw3dll.lib tinyxml_D_x64.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Archimède\ArchimedeSimulation\x64\Debug\ArchimedeSimulation.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Archimède\ArchimedeSimulation\x64\Debug\ArchimedeSimulation.lib" /MACHINE:X64 x64\Debug\ArbreDeRendu.obj
+         x64\Debug\Environnement.obj
+         x64\Debug\NoeudComposite.obj
+         x64\Debug\NoeudSimple.obj
+         x64\Debug\Scene.obj
+         x64\Debug\SceneSimulateur.obj
+         x64\Debug\Simulation.obj
+         x64\Debug\SousMarin.obj
+         x64\Debug\main.obj
+         x64\Debug\VisiteurAbstrait.obj
+         x64\Debug\VisiteurCollision.obj
+         ArchimedeSimulation.vcxproj -> D:\Archimède\ArchimedeSimulation\x64\Debug\ArchimedeSimulation.exe
+     1>Génération du projet "D:\Archimède\ArchimedeSimulation\ArchimedeSimulation\ArchimedeSimulation.vcxproj" terminée (Rebuild cible(s)).
 
-Build succeeded.
+La génération a réussi.
 
-Time Elapsed 00:00:00.01
+Temps écoulé 00:00:01.24
