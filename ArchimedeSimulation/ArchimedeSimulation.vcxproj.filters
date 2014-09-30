@@ -13,10 +13,96 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Utilitaire">
+      <UniqueIdentifier>{3c01dd80-1438-4d22-86f5-b80423b36038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArbreDeRendu">
+      <UniqueIdentifier>{881e82a1-698e-422f-9c13-bc88d559cde1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ArbreDeRendu">
+      <UniqueIdentifier>{a21fcfd9-f8ec-4b96-8044-08c493abd08b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visiteurs">
+      <UniqueIdentifier>{6d50131a-b710-4d49-88aa-6001bac25061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{11bdf48f-81f2-4ca6-8f2f-aa1ca7b9c528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{4d417419-9d8e-4b43-89ab-562b6231b718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visiteurs">
+      <UniqueIdentifier>{5ceef50e-6308-422f-80eb-83ec0b2738fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\ArbreDeRendu\ArbreDeRendu.cpp">
+      <Filter>Source Files\ArbreDeRendu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ArbreDeRendu\Environnement.cpp">
+      <Filter>Source Files\ArbreDeRendu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ArbreDeRendu\NoeudComposite.cpp">
+      <Filter>Source Files\ArbreDeRendu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ArbreDeRendu\NoeudSimple.cpp">
+      <Filter>Source Files\ArbreDeRendu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ArbreDeRendu\SousMarin.cpp">
+      <Filter>Source Files\ArbreDeRendu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scenes\Scene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scenes\SceneSimulateur.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Visiteurs\VisiteurAbstrait.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Visiteurs\VisiteurCollision.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Simulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Utilitaire\Vector3.h">
+      <Filter>Header Files\Utilitaire</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ArbreDeRendu\ArbreDeRendu.h">
+      <Filter>Header Files\ArbreDeRendu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ArbreDeRendu\Environnement.h">
+      <Filter>Header Files\ArbreDeRendu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ArbreDeRendu\NoeudComposite.h">
+      <Filter>Header Files\ArbreDeRendu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ArbreDeRendu\NoeudSimple.h">
+      <Filter>Header Files\ArbreDeRendu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ArbreDeRendu\SousMarin.h">
+      <Filter>Header Files\ArbreDeRendu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scenes\Scene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scenes\SceneSimulateur.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Visiteurs\VisiteurAbstrait.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Visiteurs\VisiteurCollision.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Simulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

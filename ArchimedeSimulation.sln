@@ -1,26 +1,50 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArchimedeSimulation", "ArchimedeSimulation\ArchimedeSimulation.vcxproj", "{5D34FD48-F1D2-466D-88F6-5C02D091D322}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Modelisation", "Modelisation\Modelisation.modelproj", "{4D0F9608-C0B3-4B39-A335-3505A1D476D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|Win32 = Release|Win32
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D34FD48-F1D2-466D-88F6-5C02D091D322}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{5D34FD48-F1D2-466D-88F6-5C02D091D322}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{5D34FD48-F1D2-466D-88F6-5C02D091D322}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{5D34FD48-F1D2-466D-88F6-5C02D091D322}.Debug|Win32.ActiveCfg = Debug|Win32
 		{5D34FD48-F1D2-466D-88F6-5C02D091D322}.Debug|Win32.Build.0 = Debug|Win32
 		{5D34FD48-F1D2-466D-88F6-5C02D091D322}.Debug|x64.ActiveCfg = Debug|x64
 		{5D34FD48-F1D2-466D-88F6-5C02D091D322}.Debug|x64.Build.0 = Debug|x64
+		{5D34FD48-F1D2-466D-88F6-5C02D091D322}.Release|Any CPU.ActiveCfg = Release|Win32
+		{5D34FD48-F1D2-466D-88F6-5C02D091D322}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{5D34FD48-F1D2-466D-88F6-5C02D091D322}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{5D34FD48-F1D2-466D-88F6-5C02D091D322}.Release|Win32.ActiveCfg = Release|Win32
 		{5D34FD48-F1D2-466D-88F6-5C02D091D322}.Release|Win32.Build.0 = Release|Win32
 		{5D34FD48-F1D2-466D-88F6-5C02D091D322}.Release|x64.ActiveCfg = Release|x64
 		{5D34FD48-F1D2-466D-88F6-5C02D091D322}.Release|x64.Build.0 = Release|x64
+		{4D0F9608-C0B3-4B39-A335-3505A1D476D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0F9608-C0B3-4B39-A335-3505A1D476D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0F9608-C0B3-4B39-A335-3505A1D476D8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4D0F9608-C0B3-4B39-A335-3505A1D476D8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4D0F9608-C0B3-4B39-A335-3505A1D476D8}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{4D0F9608-C0B3-4B39-A335-3505A1D476D8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4D0F9608-C0B3-4B39-A335-3505A1D476D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0F9608-C0B3-4B39-A335-3505A1D476D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0F9608-C0B3-4B39-A335-3505A1D476D8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4D0F9608-C0B3-4B39-A335-3505A1D476D8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4D0F9608-C0B3-4B39-A335-3505A1D476D8}.Release|Win32.ActiveCfg = Release|Any CPU
+		{4D0F9608-C0B3-4B39-A335-3505A1D476D8}.Release|x64.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
