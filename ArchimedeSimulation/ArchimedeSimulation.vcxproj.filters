@@ -71,9 +71,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Utilitaire\Vector3.h">
-      <Filter>Header Files\Utilitaire</Filter>
-    </ClInclude>
     <ClInclude Include="src\ArbreDeRendu\ArbreDeRendu.h">
       <Filter>Header Files\ArbreDeRendu</Filter>
     </ClInclude>
@@ -103,6 +100,9 @@
     </ClInclude>
     <ClInclude Include="src\Simulation.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilitaire\Vecteur3.h">
+      <Filter>Header Files\Utilitaire</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
