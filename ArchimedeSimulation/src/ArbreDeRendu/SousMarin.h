@@ -1,8 +1,8 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-///	Nom : SpusMarin.h
-///	Description: Classe représentant le sousMarin
+///	Nom : SousMarin.h
+///	Description: Classe représentant le sous-marin
 ///	Créé le	   : 30/09/14
-///	Modifié le : 30/09/14
+///	Modifié le : 1/10/14
 ///	Modifié par: G.Arruda
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -14,8 +14,18 @@
 class SousMarin : public NoeudComposite
 {
 public:
+	//Constructeur
 	SousMarin();
+	
+	//Destructeur
 	~SousMarin();
+
+	//Affichage
+	virtual void afficher();
+
+	//Visiteur
+	virtual void accepterVisiteur(VisiteurAbstrait& v);
+
 private:
 };
 

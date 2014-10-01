@@ -2,7 +2,7 @@
 ///	Nom : NoeudSimple.h
 ///	Description: Classe abstraite représentant les feuilles de l'arbre de rendu
 ///	Créé le	   : 30/09/14
-///	Modifié le : 30/09/14
+///	Modifié le : 1/10/14
 ///	Modifié par: G.Arruda
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -28,7 +28,7 @@ public:
 	virtual void afficher() = 0;
 	
 	//Visiteur
-	virtual void accepterVisiteur(VisiteurAbstrait& v);
+	virtual void accepterVisiteur(VisiteurAbstrait& v) = 0;
 
 	//Methode d'acces
 	inline const Vecteur3<double>& getPosition() const { return _position; };
@@ -54,6 +54,7 @@ public:
 	virtual bool ajouterEnfant(NoeudSimple* enfant);
 	virtual bool retirerEnfant(NoeudSimple* enfant);
 	virtual int obtenirNombreDenfant() const;
+	virtual int calculerProfondeur() const;
 	virtual void vider();	//Retire tous les enfants
 
 

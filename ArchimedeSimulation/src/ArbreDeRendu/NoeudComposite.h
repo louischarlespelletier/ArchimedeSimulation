@@ -2,7 +2,7 @@
 ///	Nom : NoeudComposite.h
 ///	Description: Classe abstraite représentant une branche de l'arbre de rendu
 ///	Créé le	   : 30/09/14
-///	Modifié le : 30/09/14
+///	Modifié le : 1/10/14
 ///	Modifié par: G.Arruda
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -22,12 +22,13 @@ public:
 	virtual ~NoeudComposite();
 
 	//Affichage
-	virtual void afficher();
+	virtual void afficher() = 0;
 
 	//Interface noeud
 	virtual bool ajouterEnfant(NoeudSimple* enfant);
 	virtual bool retirerEnfant(NoeudSimple* enfant);
 	virtual int obtenirNombreDenfant() const;
+	virtual int calculerProfondeur() const;
 	virtual void vider();	//Retire tous les enfants
 
 private:

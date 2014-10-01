@@ -12,6 +12,7 @@
 #include <gl\glew.h>
 #include <GLFW\glfw3.h>
 #include <tinyXML\tinyxml.h>
+#include "ArbreDeRendu\NoeudSimple.h"
 
 int main(){
 	//Check if lib tinyXML works
@@ -20,7 +21,8 @@ int main(){
 	//Check if GLFW and GLEW work
 	glfwInit();
 	GLFWwindow* window;
-	window = glfwCreateWindow(600, 480, "Test GLFW Window", NULL, NULL);
+	const GLFWvidmode* mode = glfwGetVideoMode(glfwGetPrimaryMonitor());
+	window = glfwCreateWindow(mode->width, mode->height, "Test GLFW Window", glfwGetPrimaryMonitor(), NULL);
 	glfwMakeContextCurrent(window);
 	GLenum errorGlew = glewInit();
 	glClearColor(0.0f, 0.0f, 1.0f, 0.0f);
